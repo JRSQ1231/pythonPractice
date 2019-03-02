@@ -9,7 +9,9 @@ inches_to_cent = 2.54
 pounds_to_kilos = .453592
 
 print(f"Let's talk about {name}.")
+print(f"He's {height} inches tall.")
 print(f"He's {height * inches_to_cent} centimeters tall.")
+print(f"He's {weight} pounds heavy.")
 print(f"He's {weight * pounds_to_kilos} kilograms heavy.")
 print("Actually that's not too heavy.")
 print(f"He's got {eyes} eyes and {hair} hair.")
